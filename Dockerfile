@@ -32,4 +32,6 @@ WORKDIR /app
 COPY --from=build /build/config.ru .
 COPY --from=install /usr/local/bundle /usr/local/bundle
 
+RUN wget 'https://calendar.google.com/calendar/ical/271q0upfs3pogocbdh24fvski99ajd6l%40import.calendar.google.com/public/basic.ics' -O f1.ics
+
 CMD ["unicorn"]

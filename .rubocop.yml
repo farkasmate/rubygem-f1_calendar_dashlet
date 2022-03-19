@@ -1,0 +1,10 @@
+require: 'rubocop-rake'
+
+AllCops:
+  NewCops: 'enable'
+
+Layout/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: true

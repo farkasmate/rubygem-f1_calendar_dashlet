@@ -32,4 +32,6 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'dashlet', '~> 2.0'
   spec.add_runtime_dependency 'icalendar', '~> 2.7'
+  spec.add_runtime_dependency 'tzinfo', '~> 2.0'
+  spec.add_runtime_dependency 'tzinfo-data', '~> 1.2022'
 end

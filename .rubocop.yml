@@ -4,7 +4,7 @@ AllCops:
   NewCops: 'enable'
 
 Layout/LineLength:
-  Max: 120
+  Max: 200
 
 Style/Documentation:
   Enabled: true
